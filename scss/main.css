@@ -1,0 +1,166 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(253, 255, 239);
+}
+
+section {
+    background-color: rgb(253, 255, 239);
+
+}
+
+#header {
+    padding: 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li a:hover {
+    background-color: rgb(247, 252, 203);
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+div#fotoDerecha {
+    display: flex;
+    height: 240px;
+    width: auto;
+    justify-content: space-between;
+    bottom: 120px;
+    position: relative;
+    padding: 10px;
+}
+
+div#fotoIzquierda {
+    display: flex;
+    
+    width: 100%;
+    bottom: 120px;
+    position: relative;
+}
+
+#bienvenidos {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    }
+
+article.centrarAlma {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+ol#horarios li {
+    list-style-type: none;
+}
+
+section#info {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+div.leerMas a {
+    background-color: rgb(247, 252, 203);    ;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+div.Reservaciones a:hover{
+    background-color: rgb(247, 252, 203);    
+}
+
+div.Reservaciones a {
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+article.centrarAlma span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+}
+
+a.politicas {
+    margin-left: 120px;
+    color: blue;
+    text-decoration: none;
+}
+
+a.email {
+    text-decoration: none;
+}
+
+main#sobreMi div h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+main#sobreMi div p {
+    text-align: center;
+    padding: 10px;
+}
+
+main#sobreMi div.fotosAbout {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+main#Contacto h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+main#Servicios h1 {
+    text-align: center;
+}
+
+main#politicas article h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+div.therapy {
+    width: 100%;
+}
+
+main#politicas article p.politicas-parrafo {
+    margin-left: 10px;
+}
+
+main#Servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
